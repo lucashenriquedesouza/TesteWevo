@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteWevo.API", "TesteWevo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteWevo.Application", "TesteWevo.Application\TesteWevo.Application.csproj", "{3280FBB4-259C-465C-8238-557795F7D5EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteWevo.Service", "TesteWevo.Service\TesteWevo.Service.csproj", "{13F5BC81-CD49-49FE-BF84-7E2E34C5719B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{3280FBB4-259C-465C-8238-557795F7D5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3280FBB4-259C-465C-8238-557795F7D5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3280FBB4-259C-465C-8238-557795F7D5EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13F5BC81-CD49-49FE-BF84-7E2E34C5719B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13F5BC81-CD49-49FE-BF84-7E2E34C5719B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13F5BC81-CD49-49FE-BF84-7E2E34C5719B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13F5BC81-CD49-49FE-BF84-7E2E34C5719B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0F37F504-3155-43C7-BBEB-F538AF20CA1B} = {37ACFA3A-3A34-4109-BCFA-D40974FE0B74}
 		{3280FBB4-259C-465C-8238-557795F7D5EA} = {37ACFA3A-3A34-4109-BCFA-D40974FE0B74}
+		{13F5BC81-CD49-49FE-BF84-7E2E34C5719B} = {9A15C732-6F69-4162-B3F0-F6659B305273}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86C53F9D-CAF4-419D-807B-1613DE7CFA30}
